@@ -1,0 +1,93 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(235, 227, 213);
+}
+
+#welcome-message {
+    text-align: left;
+    margin-bottom: 0.5in;
+    margin-top: 0.5in;
+}
+#welcome-message h1 {
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#welcome-message h2 {
+    font-size: 7em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(65, 56, 46);
+}
+#welcome-message p {
+    margin-top: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+}
+
+#about h2, #portfolio h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#about p, #portfolio p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#portfolio h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(65, 56, 46);
+}
+.navbar {
+    background-color: rgb(119, 107, 93);
+}
+
+.main_cards {
+    background-color: rgb(243, 238, 234); 
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.mini_card {
+    background-color:  rgb(248, 247, 245);
+    padding: 20px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.a1{
+    text-align: right;
+}
+
+.btn {
+    background-color: rgb(176, 166, 149);
+    border: none;
+    border-radius: 100px;
+    width: 2in;
+}
+
+.center{
+    padding: 10px;
+}
+.center_both {
+    padding: 0.70in 0;
+    text-align: left;
+}
+
+hr{
+    margin-top: 0.25in;
+    margin-bottom: 0.25in;
+}
+
+img {
+    width: 100%;
+    height: 3in;
+    object-fit: contain;
+}
+
+footer {
+    background-color: rgb(119, 107, 93);
+    padding: 30px;
+    color: white;
+}
