@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        #container {
+            margin: 20px;
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#validateButton").click(function() {
+                var fieldValue = $("#textField").val();
+
+                if (fieldValue === "") {
+                    alert("Field is empty.");
+                } else {
+                    alert("Success!");
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="container">
+        <input type="text" id="textField" placeholder="Enter something...">
+        <br><br>
+        <button id="validateButton">Validate</button>
+    </div>
+</body>
+</html>
